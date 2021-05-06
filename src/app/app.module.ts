@@ -13,6 +13,7 @@ import { ProgressBarModule } from "primeng/progressbar";
 import { NavbarComponent } from './navbar/navbar.component';
 import { MenubarComponent } from './menubar/menubar.component';
 import {MenuModule} from 'primeng/menu';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,7 @@ import {MenuModule} from 'primeng/menu';
     TieredMenuModule,
     ProgressBarModule,MenuModule
   ],
-  declarations: [AppComponent, NavbarComponent, MenubarComponent],
+  declarations: [AppComponent, NavbarComponent, MenubarComponent, SidebarComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
