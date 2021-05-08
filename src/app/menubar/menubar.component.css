@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.layout-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: white;
+  width: 220px;
+  user-select: none;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+a {
+  text-decoration: none;
+}
+.layout-sidebar .logo {
+  background-color: rgb(219, 34, 34);
+  padding: 1rem;
+  padding-left: 2rem;
+}
+.menu {
+  padding: 0 1rem;
+  overflow: auto;
+  flex-grow: 1;
+  border-right: 1px solid rgb(15, 17, 14);
+}
+.menu-category {
+  border-top: 0;
+  padding-top: 1rem;
+}
+.menu-items {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.menu-items a {
+  color: #455057;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
