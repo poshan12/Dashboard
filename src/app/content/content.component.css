@@ -1,0 +1,18 @@
+.content {
+  padding-top: 30px;
+  padding-left: 170px;
+}
+.p-grid {
+  display: flex;
+  margin-right: 0;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.box i {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1px;
+  background-color: green;
+  font-size: 25px;
+  color: white;
+}

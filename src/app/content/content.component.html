@@ -1,0 +1,52 @@
+<div class="content">
+
+
+
+
+  <div class="p-ml-4 p-mt-3">
+    <p-splitter [style]="{'height': '100px'}">
+      <ng-template pTemplate>
+        <div class="box p-shadow-2">
+          <i class="pi pi-credit-card"></i>
+        </div>
+        <h5 class="p-ml-2">Monthly Expenses</h5>
+      </ng-template>
+      <ng-template pTemplate>
+        <div class="box p-shadow-2">
+          <i class="pi pi-user-plus"></i>
+        </div>
+        <h5 class="p-ml-2">Student</h5>
+      </ng-template>
+      <ng-template pTemplate>
+        <div class="box p-shadow-2">
+          <i class="pi pi-user"></i>
+        </div>
+        <h5 class="p-ml-2">Fees Collection</h5>
+      </ng-template>
+
+    </p-splitter>
+
+  </div>
+
+  <div class="p-grid">
+    <div class="p-col-12 p-md-6 p-lg-4">
+      <p-card header=" Fees Overview">
+
+      </p-card>
+    </div>
+    <div class="p-col-12 p-md-6 p-lg-4">
+      <p-card header=" Library Overview">
+        <p-progressBar [value]="value"></p-progressBar>
+
+      </p-card>
+    </div>
+    <div class="p-col-12 p-md-6 p-lg-4">
+      <p-card header="Enquiry Overview">
+
+      </p-card>
+    </div>
+
+
+  </div>
+
+</div>

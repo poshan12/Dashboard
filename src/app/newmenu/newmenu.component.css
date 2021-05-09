@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.wrapp {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #393b3e;
+  border-right-color: #f7f6e8;
+}

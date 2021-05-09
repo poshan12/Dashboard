@@ -1,0 +1,40 @@
+.topbar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  color: #757575;
+  height: 60px;
+  padding: 0px 15px;
+  z-index: 100;
+  box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.12);
+}
+.top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.top-left a {
+  font-size: 25px;
+  padding: 1rem;
+}
+.top-left .search-bar {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.top-left .top-search {
+  border: none;
+  background: transparent;
+  color: #757575;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.top-right .user {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
